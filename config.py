@@ -1,17 +1,17 @@
 import os
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER = int(os.environ.get("OWNER", ""))
-BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7345552884:AAENULBZLpV9Au-EVN3KOcaBNzI-0Rcit14")
+API_ID = int(os.environ.get("API_ID", "12618934"))
+API_HASH = os.environ.get("API_HASH", "49aacd0bc2f8924add29fb02e20c8a16")
+OWNER = int(os.environ.get("OWNER", "1297128957"))
+BOT_USERNAME = os.environ.get('BOT_USERNAME', "AT_Rename_v9_bot")
 
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002116152617"))
 
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://Leachv3:Leachv3@cluster0.rasbnes.mongodb.net/")
+DB_NAME = os.environ.get("DB_NAME", "Leachv3")
 
 STRING = os.environ.get("STRING", "")
 BOT_PIC = os.environ.get("BOT_PIC", "https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg")
